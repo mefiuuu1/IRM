@@ -1,0 +1,61 @@
+# =========================
+# Unity + Vuforia .gitignore
+# =========================
+
+# Foldere generate automat de Unity
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+UserSettings/
+
+# IDEs și cache
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userprefs
+*.csproj
+*.unityproj
+*.sln
+
+# Mac OS
+.DS_Store
+
+# Unity3D crash reports
+sysinfo.txt
+
+# Asset Store Tools (optional)
+Assets/AssetStoreTools*
+
+# Vuforia (nu urca pachetele mari .tgz)
+Assets/Vuforia/Editor/
+Assets/Vuforia/Runtime/
+Assets/Vuforia/License/
+Assets/Vuforia/Scripts/Editor/
+Assets/Vuforia/Scripts/Generated/
+Assets/StreamingAssets/Vuforia/
+Assets/Editor/Vuforia/
+*.tgz
+
+# Formate mari care pot bloca push-ul
+*.mp4
+*.mov
+*.avi
+*.fbx
+*.obj
+*.png
+*.jpg
+*.dll
+*.aar
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+Build/
+Builds/
